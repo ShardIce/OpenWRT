@@ -3,7 +3,7 @@
 ```text
 opkg update
 opkg list-upgradable
-opkg install block-mount kmod-usb-core kmod-usb2 kmod-usb-ohci kmod-usb-storage kmod-fs-ext4 vsftpd
+opkg install block-mount kmod-usb-core kmod-usb2 kmod-usb-ohci kmod-usb-storage kmod-fs-ext4 vsftpd e2fsprogs blkid
 ```
 Подготовка USB-флешки:  
 Как правила на OpenWRT нет ничего. По этому устанавливаем DOS (мне нравится делать через нее)
