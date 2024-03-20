@@ -54,7 +54,7 @@ mount /dev/sda2 /mnt/sda2
 tar -C /overlay -cvf - . | tar -C /mnt/sda2 -xf -
 ```
 
-### Пишем конфиг для монтирования в `/etc/config/fstab`
+#### Пишем конфиг для монтирования в `/etc/config/fstab`
 
 ```text
 nano -c /etc/config/fstab
@@ -96,3 +96,6 @@ option enabled '0'
 ```
 > Нажми `CTRL+O` далее `Enter`, далее `CTRL+X`  
 > Все uuid необходимо использовать из вашего системы.
+```text
+reboot
+```
