@@ -40,7 +40,7 @@ swapon /dev/sda1
 mkfs.ext4 /dev/sda2
 mkfs.ext4 /dev/sda3
 ```
-> Если выдаёт сообщение `-ash: mkfs.ext4: not found` устанавливаем `opkg install kmod-fs-ext4`
+> Если выдаёт сообщение `-ash: mkfs.ext4: not found` устанавливаем `opkg install e2fsprogs && opkg install kmod-fs-ext4`
 
 #### Cоздадим папку
 ```text
