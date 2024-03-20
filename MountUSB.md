@@ -35,10 +35,10 @@ _Далее заходим в пункт "**Write**" пишем "**yes**" и д�
 
 #### Далeе пишем команды для нормальной работы usb drive
 ```text
-# mkswap /dev/sda1
-# swapon /dev/sda1
-# mkfs.ext4 /dev/sda2
-# mkfs.ext4 /dev/sda3
+mkswap /dev/sda1
+swapon /dev/sda1
+mkfs.ext4 /dev/sda2
+mkfs.ext4 /dev/sda3
 ```
 
 #### Cоздадим папку
