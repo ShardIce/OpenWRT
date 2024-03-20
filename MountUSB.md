@@ -2,6 +2,7 @@
 #### Устанавливаем необходимые пакеты в Openwrt через telnet или ssh
 ```text
 opkg update
+opkg list-upgradable
 opkg install block-mount kmod-usb-core kmod-usb2 kmod-usb-ohci kmod-usb-storage kmod-fs-ext4 vsftpd
 ```
 Подготовка USB-флешки:  
