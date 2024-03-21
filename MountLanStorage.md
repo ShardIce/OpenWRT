@@ -34,5 +34,5 @@ mount -t cifs '\\cifs-server\share' /localfolder -o guest,iocharset=utf8,file_mo
 
 Подключение сетевых дисков с аутентификацией
 ```text
-mmount -t cifs '\\100.96.1.18/Arhiv' /mnt/win/arhiv -o iocharset=utf8,file_mode=0777,dir_mode=0777,nounix,noserverino,username=User,password=password
+mmount -t cifs '\\192.168.1.10/Arhiv' /mnt/win/arhiv -o iocharset=utf8,file_mode=0777,dir_mode=0777,nounix,noserverino,username=User,password=password
 ```
