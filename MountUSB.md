@@ -8,7 +8,7 @@ opkg install block-mount kmod-usb-core kmod-usb2 kmod-usb-ohci kmod-usb-storage 
 Подготовка USB-флешки:  
 Как правила на OpenWRT нет ничего. По этому устанавливаем DOS (мне нравится делать через нее)
 ```text
-opkg install cfdisk
+opkg install cfdisk fdisk
 ```
 проверяем как смонтирован диск
 ```text
