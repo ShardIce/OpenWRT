@@ -1,4 +1,10 @@
 # Нет доступа по ssh
+
+В консоле с которого подключаемся ввести команду
+```text
+ssh-keygen -R "IP"
+```
+
 Заходим через браузер System => Administration => SSH Access 
 ```text
 Interface = LAN
